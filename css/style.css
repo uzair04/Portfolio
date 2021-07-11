@@ -1362,3 +1362,46 @@ ul.dashed > li:before {
   top: 9px;
   left: -20px;
 }
+.resume-btn:hover,
+.resume-btn:active {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000 !important;
+  opacity: 1;
+}
+.resume-btn {
+  margin-top: 30px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  background: none;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  border-radius: 3px;
+  border: 2px solid #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #333;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  border: 2px solid transparent;
+  background-clip: content-box;
+  background-color: #ec3337;
+}
