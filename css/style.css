@@ -869,6 +869,9 @@ a:hover {
 .achmorebg {
   background: #007bff;
 }
+#certification .work-box .work-content {
+  height: 220px;
+}
 .work-box .work-content {
   background: #fff;
 }
